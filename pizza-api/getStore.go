@@ -3,10 +3,10 @@ package pizza_api
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tony-mw/pizza-api-client/pkg/pizza-api/responseTypes"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"github.com/tony-mw/pizza-api/responseTypes"
 )
 
 var storeResponse responseTypes.StoreResponse

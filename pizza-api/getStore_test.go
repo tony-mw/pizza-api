@@ -27,6 +27,7 @@ func TestGetStore(t *testing.T) {
 
 	for _, v := range stores.Stores {
 		fmt.Printf("Address is: %s\n", v.AddressDescription)
+		fmt.Printf("StoreId is: %s\n", v.StoreID)
 		fmt.Printf("Open Now: %t\n\n", v.IsOpen)
 	}
 }
